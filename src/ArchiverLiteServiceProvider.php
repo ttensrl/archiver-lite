@@ -1,8 +1,8 @@
 <?php
 
-namespace TtenSrl\ArchiverLite;
+namespace LaravelBricks\ArchiverLite;
 
-use TtenSrl\ArchiverLite\Http\Livewire\Archiver;
+use LaravelBricks\ArchiverLite\Http\Livewire\Archiver;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
 

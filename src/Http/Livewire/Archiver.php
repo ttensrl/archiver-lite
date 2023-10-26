@@ -1,6 +1,6 @@
 <?php
 
-namespace TtenSrl\ArchiverLite\Http\Livewire;
+namespace LaravelBricks\ArchiverLite\Http\Livewire;
 
 use Livewire\Component;
 use Livewire\WithFileUploads;

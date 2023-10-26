@@ -30,7 +30,7 @@
  * SOFTWARE.
  */
 
-namespace TtenSrl\ArchiverLite\Traits;
+namespace LaravelBricks\ArchiverLite\Traits;
 
 use Spatie\MediaLibrary\InteractsWithMedia;
 use function PHPUnit\Framework\isNull;

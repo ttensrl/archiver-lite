@@ -1,5 +1,5 @@
 {
-    "name": "ttensrl/archiver-lite",
+    "name": "laravel-bricks/archiver-lite",
     "description": "Manage Easy Upload of Media and file.",
     "type": "package",
     "license": "MIT",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TtenSrl\\ArchiverLite\\": "./src"
+            "LaravelBricks\\ArchiverLite\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TtenSrl\\ArchiverLite\\Tests\\": "tests"
+            "LaravelBricks\\ArchiverLite\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TtenSrl\\ArchiverLite\\ArchiverLiteServiceProvider"
+                "LaravelBricks\\ArchiverLite\\ArchiverLiteServiceProvider"
             ]
         }
     },

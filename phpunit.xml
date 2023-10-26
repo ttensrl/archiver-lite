@@ -4,7 +4,7 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="ttensrl/archiver-lite Test Suite">
+        <testsuite name="laravel-bricks/archiver-lite Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

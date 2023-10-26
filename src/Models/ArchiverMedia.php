@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-namespace TtenSrl\ArchiverLite\Models;
+namespace LaravelBricks\ArchiverLite\Models;
 
-use TtenSrl\Flux\Classes\Flowable;
+use LaravelBricks\Flux\Classes\Flowable;
 use Spatie\MediaLibrary\MediaCollections\Models\Media as BaseMedia;
 
 class ArchiverMedia extends BaseMedia

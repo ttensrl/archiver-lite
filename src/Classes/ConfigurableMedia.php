@@ -1,5 +1,5 @@
 <?php
-namespace TtenSrl\ArchiverLite\Classes;
+namespace LaravelBricks\ArchiverLite\Classes;
 use Spatie\MediaLibrary\HasMedia;
 
 /**
