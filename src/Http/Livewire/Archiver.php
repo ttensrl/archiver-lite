@@ -130,6 +130,7 @@ class Archiver extends Component
 
         $this->files = null;
         $this->iteration++;
+        $this->emit('mediaAdded');
     }
 
     /**
