@@ -94,7 +94,6 @@ class Archiver extends Component
             $this->propertyView   = $objExtraField['view'];
             $this->loadCustomProperty();
         }
-
     }
 
     /**
@@ -147,6 +146,9 @@ class Archiver extends Component
             $media_new_default          = $this->getObjectMedia()->getMedia($this->selectedCollection)->first();
             $media_new_default->default = true;
             $media_new_default->save();
+        }
+        if($this->getObjectMedia()->media()->count() < 1){
+            $this->emit('noMedia');
         }
     }
 
